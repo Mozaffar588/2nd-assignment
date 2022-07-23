@@ -1,0 +1,36 @@
+body{
+    /* background-color: black; */
+}
+.top-banner{
+    background-color: black;
+    display: flex;
+    outline: 1px solid red;
+    margin: 0 40px;
+    border-radius: 20px;
+}
+.banner-text h1{
+    font-weight: bold;
+}
+.banner-info{
+    width: 50%;
+    outline: 1px solid red;
+    color: white;
+}
+.banner-text{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.button-style{
+    background-color: orange;
+    border-radius: 5px;
+}
+.icon-name{
+    color: white;
+    font-weight: 400;
+}
+.fa-solid{
+    color:white;
+}
+.cover-img{
+    padding-left: 30px;
+}
