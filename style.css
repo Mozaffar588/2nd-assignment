@@ -1,72 +1,40 @@
-body{
-    /* background-color: black; */
+ body{
+        margin-left: 5%;
+        margin-right: 5%;
 }
-.top-banner{
-    background-color: black;
-    display: flex;
-    /* outline: 1px solid red; */
-    margin: 0 40px;
-    border-radius: 20px;
+.first-sect{
+            height: 300px;
+            width: 100%;
+            border: 2px solid green;
 }
-.banner-text h1{
-    font-weight: bold;
+.helf-width{
+    height: 90%;
+    width: 48%;
+    float: left;
+    margin: 10px;
+    border: 1px solid burlywood;
 }
-.banner-info{
-    width: 50%;
-    /* outline: 1px solid red; */
-    color: white;
+.menu{
+    height: 700px;
+    width: 23%;
+    border: 1px solid hotpink;
+    float: left;
 }
-.banner-text{
-    padding-left: 20px;
-    padding-top: 25px;
+.blog{
+    height: 700px;
+    width: 100%;
+    border: 1px solid red;
 }
-.button-style{
-    background-color: orange;
-    border-radius: 5px;
-    width: 120px;
-    height: 40px;
-}
-.icon-name{
-    color: white;
-    font-weight: 400;
-}
-.fa-solid{
-    color:white;
-}
-.cover-img{
-    padding-left: 30px;
-}
-.manu-section{
-    background-color: black;
-    width: 320px;
+.blog-content{
     height: 340px;
-    border-radius: 10px;
+    width:310px;
+    border: 1px solid blueviolet;
+    float: left;
+    margin: 10px;
 }
-.manu-item{
-    /* outline: 1px solid red; */
-}
-.manu-section .manu-item ul li{
-    list-style-type: none;
-
-
-}
-.manu-section .manu-item ul{
-    justify-items: center;
-    padding-top: 75px;
-    padding-right:50px ;
-}
-.manu-section .manu-item ul li a{
-    display: block;
-    padding: 20px 20px;
-    text-decoration:none ;
-    background-color: white;
-    margin-bottom: 15px;
-    border-radius: 20px;
-    text-align:center ;
-    font-weight: bold;
-    font-size: 15px;
-}
-.manu-section .manu-item ul li a:hover{
-    background-color: red;
-    border-radius: 20px;
+.submenu{
+    height: 50px;
+    width: 80%;
+    margin: 10px;
+    border: 1px solid black;
 }
